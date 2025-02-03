@@ -1,0 +1,2 @@
+# Javascript Type Coercion Bug
+This repository contains an example of a common bug in Javascript caused by type coercion.  The bug occurs when the function `foo` is called with a number and a string. Javascript automatically converts the number to a string and concatenates the two values together instead of adding them numerically. This is a common cause of unexpected results, especially for developers new to Javascript.  The solution demonstrates how to avoid type coercion by using explicit type checking.
